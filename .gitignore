@@ -7,7 +7,7 @@ out
 .classpath
 
 !doc/apk/*.apk
-!doc/libs/*.aar
+!libs/*.aar
 
 # Files for the ART/Dalvik VM
 *.dex
