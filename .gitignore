@@ -11,8 +11,9 @@ out
 # Files for the ART/Dalvik VM
 *.dex
 
-# Java class files
+# Java/JDK files
 *.class
+*.hprof
 
 # Generated files
 bin/
@@ -49,9 +50,37 @@ captures/
 graphs
 charts
 csv
+.idea/
+
+# For Mac users
+.DS_Store
 
 videos
 
 playground
 
 *.html
+# Google Services (e.g. APIs or Firebase)
+# google-services.json
+
+# Freeline
+freeline.py
+freeline/
+freeline_project_description.json
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Version control
+vcs.xml
+
+# lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+# lint/reports/
